@@ -22,7 +22,7 @@ const PORT = process.env.PORT;
 const http = require("http");
 const initialisesocket = require("./utils/initialisesocket");
 app.use(cors({
-   origin: "https://devtinder-frontend12.onrender.com",
+   origin: "https://devtinder-frontend-f.onrender.com",
    credentials:true
 }))
 app.use(express.json());
